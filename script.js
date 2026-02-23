@@ -1,4 +1,4 @@
-const URL = "./model/";
+const URL = "./";
 
 let model, webcam, labelContainer, maxPredictions;
 let isRunning = false;
@@ -97,3 +97,4 @@ function resetTimer() {
     closedStartTime = null;
     lastAlarmTime = 0;
 }
+
