@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>Teachable Machine Image Model</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- TensorFlow & Teachable Machine -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Teachable Machine</h1>
+        <p class="subtitle">Image Classification with Webcam</p>
+
+        <button class="start-btn" onclick="init()">Start</button>
+        <button class="stop-btn" onclick="stop()">Stop</button>
+
+        <div class="content">
+            <div id="webcam-container" class="webcam-box"></div>
+            <div id="label-container" class="label-box"></div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
